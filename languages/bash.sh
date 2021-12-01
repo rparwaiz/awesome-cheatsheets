@@ -55,6 +55,7 @@ history   # shows command line history
 !!        # repeats the last command
 !<n>      # refers to command line 'n'
 !<string> # refers to command starting with 'string'
+esc :wq   # exits the script
 
 exit      # logs out of current session
 
