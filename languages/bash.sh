@@ -229,6 +229,7 @@ declare -r                   # makes the variables read-only
 declare -x                   # marks the variables for export via the environment
 declare -l                   # uppercase values in the variable are converted to lowercase
 declare -A                   # makes it an associative array
+declare -u                   # lowercase values in the variable are converted to uppercase
 
 ${varname:-word}             # if varname exists and isn't null, return its value; otherwise return word
 ${varname:word}              # if varname exists and isn't null, return its value; otherwise return word
