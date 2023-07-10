@@ -3,6 +3,7 @@ git remote add origin https://github.com/repo_name.git        # add remote repos
 git clone <address> # creates a git repo from given address (get the address from your git-server)
 git clone <address> -b <branch_name> <path/to/directory>  # clones a git repo from the address into the given directory and checkout's the given branch
 git clone <address> -b <branch_name> --single-branch  # Clones a single branch
+git origin # shorthand name for the remote repository that a project was originally cloned from. More precisely, it is used instead of that original repository's URL
 
 git add <file_name>   # adds(stages) file.txt to the git
 git add *          # adds(stages) all new modifications, deletions, creations to the git
